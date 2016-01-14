@@ -1,4 +1,1 @@
-{"name":"zhanshu233","number_of_posts_per_page":7,<!-- UY BEGIN -->
-<div id="uyan_frame"></div>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
-<!-- UY END -->,"posts":[{"title":"用Simple搭建Github静态Blog","date":"2016-01-14","tags":"blog","path":"simple-github-blog.html"}],"pages":[]}
+{"name":"zhanshu233","number_of_posts_per_page":7,"disqus_shortname":"zhanshu233","posts":[{"title":"用Simple搭建Github静态Blog","date":"2016-01-14","tags":"blog","path":"simple-github-blog.html"}],"pages":[]}
