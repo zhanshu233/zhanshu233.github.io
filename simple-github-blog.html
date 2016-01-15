@@ -25,14 +25,67 @@
 	</div>
 <div id="md" style="display: none;">
 <!-- markdown -->
-互联网是学习的好工具，靠着各处搜罗来的知识，折腾出了这个属于自己的小天地，以后这里就是我的技术博客啦！第一篇博文就来讲讲搭建这个博客的过程。
-注册Github
+互联网是学习的好工具，靠着各处搜罗来的知识，折腾出了这个属于自己的小天地，以后这里就是我的技术博客啦！第一篇博文就来讲讲搭建这个Blog的过程。
+## # 开始行动
+* 首先要有一个Github的账号（没有的请点[这里注册](http://www.github.com)）。  
+`全球最大的男性同性交友网站，不懂的请Google之。`
+* 登陆Github后点击“+ New repository”创建一个命名为**username.github.io**的project，注意要勾选生成**README** 。  
+![](http://zhanshu233.github.io/img/simple-github-blog-1.jpg)   
+![](http://zhanshu233.github.io/img/simple-github-blog-2.jpg)  
+`username就是注册Github时的账户名`  
+* 用Github帐号登录Simple（点击[这里登陆](http://zhanshu233.github.io/src/index.html)）。  
+`Simple是一款极简的静态博客生成器，基于Github Pages，静态页面，完全在线操作，不需要服务器，只需一个 Github 账号即可。基于“在线”和“静态”这两种特性，我们可以更加专注于Blog的内容而不是后台维护，这也是我选择这种方式搭建个人博客的原因之一。`  
+* 点击**Initialize**来初始化Blog，之后点击**Go**就可以开始写Markdown的Blog了。  
+`只需第一次搭建的时候点击Initialize，之后每次直接点击Go就可以开始写Blog了。`  
+* 点击**New post**可以新建一篇文章，点击**New page**可以新建一个导航，点击**Save**保存并生成静态页面，访问username.github.io这个网址就可以看生成的Blog了。  
+`注意Github pages貌似有缓存，也就是说会有一段时间的延迟，可能不能立即看到效果，不过等一等就好了。`
+## # 功能完善
+到这一步的时候已经可以说大功告成了，但总觉得少了点什么？评论区！因为是静态页面，没有用到数据库，所以评论功能需要用第三方插件来实现。这里我们用免费的Disqus来实现。  
+* 去Disqus官网注册（请点这里[搭乘官网直达车](https://disqus.com/)）。  
+* 点击右上角的小齿轮弹出下拉菜单，选择**Add Disqus To Site**，点击**Star Using Engage**。  
+ ![](http://zhanshu233.github.io/img/simple-github-blog-3.jpg)  
+* 记住你在下图红框位置填写的shortname，点击**Finish registration**。  
+ ![](http://zhanshu233.github.io/img/simple-github-blog-4.jpg)  
+* 去Github你的username.github.io下找到**main.json**，在**"disqus_shortname":**后面的引号内填入刚刚的shortname并保存。  
+## # 结尾  
+至此，一个比较完整的个人博客就搭建完成了，谢谢[isnowfy](https://github.com/isnowfy)分享的开源项目[Simple](https://github.com/isnowfy/simple)。
+
 <!-- markdown end -->
 </div>
 <div class="entry" id="main">
 <!-- content -->
-<p>互联网是学习的好工具，靠着各处搜罗来的知识，折腾出了这个属于自己的小天地，以后这里就是我的技术博客啦！第一篇博文就来讲讲搭建这个博客的过程。
-注册Github</p>
+<p>互联网是学习的好工具，靠着各处搜罗来的知识，折腾出了这个属于自己的小天地，以后这里就是我的技术博客啦！第一篇博文就来讲讲搭建这个Blog的过程。</p>
+
+<h2 id=""># 开始行动</h2>
+
+<ul>
+<li>首先要有一个Github的账号（没有的请点<a href="http://www.github.com">这里注册</a>）。 <br>
+<code>全球最大的男性同性交友网站，不懂的请Google之。</code></li>
+<li>登陆Github后点击“+ New repository”创建一个命名为<strong>username.github.io</strong>的project，注意要勾选生成<strong>README</strong> 。 <br>
+<img src="http://zhanshu233.github.io/img/simple-github-blog-1.jpg" alt="" title=""> <br>
+<img src="http://zhanshu233.github.io/img/simple-github-blog-2.jpg" alt="" title=""> <br>
+<code>username就是注册Github时的账户名</code>  </li>
+<li>用Github帐号登录Simple（点击<a href="http://zhanshu233.github.io/src/index.html">这里登陆</a>）。 <br>
+<code>Simple是一款极简的静态博客生成器，基于Github Pages，静态页面，完全在线操作，不需要服务器，只需一个 Github 账号即可。基于“在线”和“静态”这两种特性，我们可以更加专注于Blog的内容而不是后台维护，这也是我选择这种方式搭建个人博客的原因之一。</code>  </li>
+<li>点击<strong>Initialize</strong>来初始化Blog，之后点击<strong>Go</strong>就可以开始写Markdown的Blog了。 <br>
+<code>只需第一次搭建的时候点击Initialize，之后每次直接点击Go就可以开始写Blog了。</code>  </li>
+<li>点击<strong>New post</strong>可以新建一篇文章，点击<strong>New page</strong>可以新建一个导航，点击<strong>Save</strong>保存并生成静态页面，访问username.github.io这个网址就可以看生成的Blog了。 <br>
+<code>注意Github pages貌似有缓存，也就是说会有一段时间的延迟，可能不能立即看到效果，不过等一等就好了。</code></li>
+</ul>
+
+<h2 id=""># 功能完善</h2>
+
+<p>到这一步的时候已经可以说大功告成了，但总觉得少了点什么？评论区！因为是静态页面，没有用到数据库，所以评论功能需要用第三方插件来实现。这里我们用免费的Disqus来实现。 <br>
+* 去Disqus官网注册（请点这里<a href="https://disqus.com/">搭乘官网直达车</a>）。 <br>
+* 点击右上角的小齿轮弹出下拉菜单，选择<strong>Add Disqus To Site</strong>，点击<strong>Star Using Engage</strong>。 <br>
+ <img src="http://zhanshu233.github.io/img/simple-github-blog-3.jpg" alt="" title=""> <br>
+* 记住你在下图红框位置填写的shortname，点击<strong>Finish registration</strong>。 <br>
+ <img src="http://zhanshu233.github.io/img/simple-github-blog-4.jpg" alt="" title=""> <br>
+* 去Github你的username.github.io下找到<strong>main.json</strong>，在<strong>"disqus_shortname":</strong>后面的引号内填入刚刚的shortname并保存。  </p>
+
+<h2 id=""># 结尾</h2>
+
+<p>至此，一个比较完整的个人博客就搭建完成了，谢谢<a href="https://github.com/isnowfy">isnowfy</a>分享的开源项目<a href="https://github.com/isnowfy/simple">Simple</a>。</p>
 <!-- content end -->
 </div>
 <br>
